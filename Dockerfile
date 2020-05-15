@@ -1,7 +1,7 @@
-FROM node:4.8.3
+FROM node:10
 MAINTAINER dingtalk.Chat Team <2912150017@qq.com>
 
-RUN npm install -g coffee-script yo generator-hubot  &&  \
+RUN npm install -g coffeescript  yo generator-hubot  &&  \
 	useradd hubot -m
 
 USER hubot
